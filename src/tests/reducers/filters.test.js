@@ -33,12 +33,12 @@ test('sholud set text filter',() =>{
 })
 
 test('should set startDate filter',() =>{
-    const state = filterReducers(undefined,{type: 'SET_START_DATE', date: moment(0).startOf('month')})
+    const state = filterReducers(undefined,{type: 'SET_START_DATE', startDate: moment(0).startOf('month')})
     expect(state.startDate).toEqual(moment(0).startOf('month'))
 })
 
 test('should set endDate filter',() =>{
-    const state = filterReducers(undefined,{type: 'SET_END_DATE', date: moment(0).endOf('month')})
+    const state = filterReducers(undefined,{type: 'SET_END_DATE', endDate: moment(0).endOf('month')})
     expect(state.endDate).toEqual(moment(0).endOf('month'))
 })
 
