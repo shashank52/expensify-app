@@ -1,0 +1,31 @@
+.button {
+    background: $pink;
+    border: none;
+    color: white;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    outline-style: none;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+}
+.button--link{
+    background: none;
+}
+.button:hover{
+    background: $dark-pink;
+    font-weight: 500;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:active{
+    transform: translateY(2px);
+}
+.button--secondary{
+    background: #888;
+}
+.button--secondary:hover{
+    background: rgb(82, 82, 82);
+}
