@@ -1,6 +1,6 @@
 # Expensify
 
-A project that help users to track expenses. User can add, edit, delete their expenses and also search their prvious expenses using various sorting options.
+A project that help users to track expenses. User can add, edit, delete their expenses and also search their previous expenses using various sorting options.
 
 Deployed on Heroku: [Expensify](https://react-expensify-shaks.herokuapp.com/)
 
