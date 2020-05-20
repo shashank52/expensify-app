@@ -10,11 +10,13 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
+    color: white;
     @media (min-width: 450px){
         background: linear-gradient(145deg, $pink 25%, 25.5%, transparent 70%), url('/images/expensify-bg-small.jpg');
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
+        color: black;
     }
     @media (min-width: $desktop-breakpoint){
         background: linear-gradient(145deg, $pink 25%, 25.5%, transparent 70%), url('/images/expensify-bg.jpg');
@@ -25,13 +27,15 @@
 }
 
 .box-layout__box{
-    background: fade-out($color: white, $amount: 0.15);
-    border: 1px solid $dark-grey;
+    background: transparent;
     border-radius: 3px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
     text-align: center;
     width: 25rem;
     padding: $l-size $m-size;
+    @media (min-width: 450px){
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 }
 .box-layout__title {
     margin: 0;

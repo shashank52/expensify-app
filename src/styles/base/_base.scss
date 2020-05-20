@@ -9,6 +9,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
     line-height: 1.6;
+    background-color: black;
+    @media (min-width: 450px){
+        background-color: white;
+    }
 }
 button {
     cursor: pointer;
